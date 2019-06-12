@@ -1,0 +1,27 @@
+{
+  "name": "cypress-puppeteer-plugin",
+  "version": "1.0.0",
+  "description": "Allows the interaction with the Chrome DevTools Protocol by means of the Puppeteer client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvegarag/cypress-puppeteer-plugin"
+  },
+  "author": "Joaquín Vegara <j.vegaragarcia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^1.17.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open --project .",
+    "cypress:run": "DISPLAY= cypress run --browser chrome --project ."
+  },
+  "keywords": [
+    "cypress",
+    "plugin",
+    "cdp",
+    "puppeteer"
+  ]
+}
